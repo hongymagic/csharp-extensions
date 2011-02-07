@@ -5,37 +5,37 @@ contains list extensions for Arrays that mimic JavaScript Array-like syntax.
 
 ## Arrays ##
 
-  // given
-  var podium = new[] { 1, 2, 3 };
+    // given
+    var podium = new[] { 1, 2, 3 };
 
 ### Push ###
 
-  ArrayExtensions.Push(ref podium, 4);
-  // podium = {1, 2, 3, 4}
+    ArrayExtensions.Push(ref podium, 4);
+    // podium = {1, 2, 3, 4}
 
 ### Pop ###
 
-  var popped = ArrayExtensions.Pop(ref podium);
-  // popped = 4
-  // podium = {1, 2, 3}
+    var popped = ArrayExtensions.Pop(ref podium);
+    // popped = 4
+    // podium = {1, 2, 3}
 
 ### Shift ###
 
-  var shifted = ArrayExtensions.Shift(ref a);
-  // shifted = 1
-  // podium = {2, 3}
-  
+    var shifted = ArrayExtensions.Shift(ref a);
+    // shifted = 1
+    // podium = {2, 3}
+    
 ### Filter ###
 
-  var filtered = a.Filter(x => x == 2);
-  // filtered = {2}
-  // podium = {2, 3}
+    var filtered = a.Filter(x => x == 2);
+    // filtered = {2}
+    // podium = {2, 3}
 
 ### Map ###
 
-  var mapped = a.Map(x => x * 2);
-  // mapped = {4, 6}
-  // podium = {2, 3}
+    var mapped = a.Map(x => x * 2);
+    // mapped = {4, 6}
+    // podium = {2, 3}
 
 ## How to contribute ##
 
