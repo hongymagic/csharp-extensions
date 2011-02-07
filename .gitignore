@@ -1,0 +1,41 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+nbproject
+thumbs.db
+*.user
+*.suo
+_ReSharper*
+*.ReSharper
+**/bin
+**/obj
+
+# Dreamweaver added files
+_notes
+dwsync.xml
+
+# Folders to ignore
+.hg
+.svn
+publish
+build
+.idea
+
+# files
+build/buildinfo.properties
+
+/src/Web/bin
+/src/Web/obj
