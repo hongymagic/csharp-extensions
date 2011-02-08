@@ -27,13 +27,13 @@ contains list extensions for Arrays that mimic JavaScript Array-like syntax.
     
 ### Filter ###
 
-    var filtered = a.Filter(x => x == 2);
+    var filtered = podium.Filter(x => x == 2);
     // filtered = {2}
     // podium = {2, 3}
 
 ### Map ###
 
-    var mapped = a.Map(x => x * 2);
+    var mapped = podium.Map(x => x * 2);
     // mapped = {4, 6}
     // podium = {2, 3}
 
@@ -43,4 +43,5 @@ If you have anything you wish to add, send me a pull request.
 
 ## TODO ##
 
-Add more
+- Add more useful string, dictionary, object extensions
+- Provide some examples other than test project (?)
